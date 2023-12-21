@@ -1,0 +1,43 @@
+
+nav{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+
+}
+ul{
+
+    display: inline-flex;
+    justify-content: center;
+
+
+}
+li{
+    list-style: none;
+    margin-left: 10px;
+
+}
+a{
+    text-decoration: none;
+}
+.bird{
+    margin: 20px auto;
+    padding: 50px;
+}
+#birds{
+    width: 50%;
+    height: 800px;
+}
+
+form{
+    margin:30px;
+    padding: 60px;
+
+    float: right;
+    border: solid 1px #E5E7EB;
+    background-color:rgb(109, 237, 109);
+
+}
+button{
+    background-color: green;
+}
