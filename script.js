@@ -26,5 +26,17 @@ function addBookToLibrary(book)
  addBookToLibrary(new book('Modibo', 'myBook', 1222));
 console.table(myLibrary);
 
-const labrarycontent = document.querySelector('labrary-container');
+const dialogEl = document.querySelector("dialog");
+const showBtn = document.querySelector(".show");
+const closeBtn = document.querySelector(".close");
+
+
+showBtn.addEventListener("click", () => {
+
+    dialogEl.showModal();
+});
+
+closeBtn.addEventListener("click", () => {
+    dialogEl.close();
+});
 
